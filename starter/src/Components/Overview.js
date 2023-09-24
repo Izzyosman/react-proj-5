@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { selectDisplay } from "../redux/slices/displayCountrySlice";
+import { selectDisplay } from "../redux/displayCountrySlice";
 
 const Overview = () => {
     let currentDisplay = useSelector(selectDisplay);

@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { setDisplayCountry } from "../redux/slices/displayCountrySlice";
-import { selectPotentials } from "../redux/slices/potentialCountriesSlice";
+import { setDisplayCountry } from "../redux/displayCountrySlice";
+import { selectPotentials } from "../redux/potentialCountriesSlice";
 
 const OptionDisplay = () => {
     let currentPotentials = useSelector(selectPotentials);

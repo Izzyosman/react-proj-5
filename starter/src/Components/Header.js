@@ -5,11 +5,11 @@ import { useDispatch, useSelector } from "react-redux";
 import {
     deletePotentialCountries,
     setPotentialCountries,
-} from "../redux/slices/potentialCountriesSlice";
+} from "../redux/potentialCountriesSlice";
 import {
     selectDisplay,
     deleteDisplayCountry,
-} from "../redux/slices/displayCountrySlice";
+} from "../redux/displayCountrySlice";
 
 const Header = () => {
     const [input, setInput] = useState();

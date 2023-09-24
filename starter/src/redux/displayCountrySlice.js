@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import initialCountry from "../../assets/initialCountry";
+import initialCountry from "../assets/initialCountry";
 
 export const displayCountrySlice = createSlice({
     name: "displayCountry",

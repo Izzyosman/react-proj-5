@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import { selectDisplay } from "../redux/slices/displayCountrySlice";
+import { selectDisplay } from "../redux/displayCountrySlice";
 
 const Weather = () => {
     const [weather, setWeather] = useState();
